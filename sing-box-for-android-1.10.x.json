@@ -72,7 +72,9 @@
       "outbounds": [
         "♻️ 自动选择",
         "🇺🇸 美国 1",
-        "🇺🇸 美国 2"
+        "🇺🇸 美国 2",
+        "🇯🇵 日本 1",
+        "🇹🇼 台湾 1"
       ],
       "default": "",
       "interrupt_exist_connections": true
@@ -82,7 +84,9 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "🇺🇸 美国 1",
-        "🇺🇸 美国 2"  
+        "🇺🇸 美国 2",
+        "🇯🇵 日本 1",
+        "🇹🇼 台湾 1"
       ],
       "interval": "2m",
       "tolerance": 100,
@@ -104,7 +108,7 @@
       "type": "hysteria2",
       "tag": "🇺🇸 美国 1",
       "server": "dianfeng-us.legeth.xyz",
-      "server_port": 47424,
+      "server_port": 42090,
       "password": "ac176117-dced-424e-91ba-55b6fe7b7ef4",
       "tls": {
         "enabled": true,
@@ -132,6 +136,56 @@
         "path": "/",
         "headers": {
           "Host": "us.oldcloud.online"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 1",
+      "server": "ew.cloudflare.182682.xyz",
+      "server_port": 443,
+      "uuid": "ebbd1938-3167-4d03-97c8-3adbf3d4d301",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp.4056860.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp.4056860.xyz"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 台湾 1",
+      "server": "ew.cloudflare.182682.xyz",
+      "server_port": 443,
+      "uuid": "21c87102-364a-4cfa-9188-b374bf5f2472",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.oldcloud.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tw.oldcloud.online"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -209,7 +263,6 @@
       }
     ],
     "final": "",
-    "find_process": true,
     "auto_detect_interface": true
   },
   "experimental": {
