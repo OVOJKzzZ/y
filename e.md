@@ -18,7 +18,7 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [全局] 模式，使用的规则：私有 ip 直连，其它的一律 代理
 
-• [直连] 模式，一律直连，没有列外
+• [直连] 模式，全部直连
 
 
 #### [加入 Telegram 群组](https://)
