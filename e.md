@@ -9,6 +9,8 @@
 ```txt
 https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json
 ```
+#### 使用提示
+• 在任意浏览器访问 http://127.0.0.1:9090/ui 即可 查看、管理、使用 你的 sing-box
 
 
 #### [加入 Telegram 群组](https://)
