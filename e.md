@@ -20,5 +20,10 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [直连] 模式，全部直连
 
+#### 更新日志
+• 20250223
+
+test
+
 
 #### [加入 Telegram 群组](https://)
