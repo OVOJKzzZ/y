@@ -28,4 +28,4 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 
 #### 加入 Telegram
-• [群组]([https://](https://t.me/+_Tpy-oNCvg8xYjI1))
+• [群组](https://t.me/+_Tpy-oNCvg8xYjI1)
