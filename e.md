@@ -1,19 +1,19 @@
 #### 提醒
 • 仅支持 sing-box 1.10.x 版本
 
-• 如不能使用，请更新订阅链接
+• 如不能使用，请更新订阅地址
 
 #### 下载
 [sing-box for android 1.10.7 版本下载](https://github.boki.moe/https://github.com/SagerNet/sing-box/releases/download/v1.10.7/SFA-1.10.7-universal.apk)
 
-#### sing-box 订阅链接
+#### sing-box 订阅地址
 • 更新时间：2025-02-24 11:48
 ```txt
 https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json
 ```
 #### 使用提示
 
-• 有事没事点一下更新订阅
+• 有事没事点一下更新订阅地址
 
 • 在任意浏览器访问 http://127.0.0.1:9090/ui 即可 查看、管理和使用 你的 sing-box
 
