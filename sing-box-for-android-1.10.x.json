@@ -20,11 +20,6 @@
       {
         "tag": "tls-dns",
         "address": "https://223.5.5.5/dns-query",
-        "detour": "direct-out"
-      },
-      {
-        "tag": "out-dns",
-        "address": "https://223.5.5.5/dns-query",
         "detour": "direct-out",
         "strategy": "prefer_ipv4"
       }
@@ -32,11 +27,11 @@
     "rules": [
       {
         "outbound": "any",
-        "server": "out-dns"
+        "server": "tls-dns"
       },
       {
         "domain": "github.boki.moe",
-        "server": "out-dns"
+        "server": "tls-dns"
       },
       {
         "clash_mode": "全局",
