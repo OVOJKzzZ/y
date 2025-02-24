@@ -79,7 +79,8 @@
         "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ],
       "default": "",
       "interrupt_exist_connections": true
@@ -95,9 +96,10 @@
         "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ],
-      "interval": "2m",
+      "interval": "3m",
       "tolerance": 100,
       "interrupt_exist_connections": true
     },
@@ -283,6 +285,27 @@
         "type": "http",
         "path": "/"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "5",
+      "server": "2400:c620:2c:79db::1",
+      "server_port": 12252,
+      "uuid": "13280d47-c03a-43dc-8313-91f84b830aa7",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Aj80N2QbVgz9IzFNKRY1L9C9pWvAGScC1SF3iio_F30",
+          "short_id": "1a3b6617d69468bc"
+        }
+      },
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
