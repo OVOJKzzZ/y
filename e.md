@@ -23,7 +23,7 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [直连] 模式，全部直连
 
-#### 代理来源
+#### 代理服务器来源
 • 互联网
 
 
