@@ -21,16 +21,22 @@
         "tag": "tls-dns",
         "address": "https://223.5.5.5/dns-query",
         "detour": "direct-out"
+      },
+      {
+        "tag": "out-dns",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct-out",
+        "strategy": "prefer_ipv4"
       }
     ],
     "rules": [
       {
         "outbound": "any",
-        "server": "tls-dns"
+        "server": "out-dns"
       },
       {
         "domain": "github.boki.moe",
-        "server": "tls-dns"
+        "server": "out-dns"
       },
       {
         "clash_mode": "全局",
@@ -74,7 +80,11 @@
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
         "🇯🇵 日本 1",
-        "🇹🇼 台湾 1"
+        "🇹🇼 台湾 1",
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "default": "",
       "interrupt_exist_connections": true
@@ -86,7 +96,11 @@
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
         "🇯🇵 日本 1",
-        "🇹🇼 台湾 1"
+        "🇹🇼 台湾 1",
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "interval": "2m",
       "tolerance": 100,
@@ -108,7 +122,7 @@
       "type": "hysteria2",
       "tag": "🇺🇸 美国 1",
       "server": "dianfeng-us.legeth.xyz",
-      "server_port": 42090,
+      "server_port": 49138,
       "password": "ac176117-dced-424e-91ba-55b6fe7b7ef4",
       "tls": {
         "enabled": true,
@@ -189,6 +203,90 @@
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "1",
+      "server": "2a01:4f8:231:f637::1",
+      "server_port": 19949,
+      "uuid": "afa42a28-f990-46b5-8a43-b4bb6a6d2e83",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "37T3e_0Ud3P-YK4zYorYrkdChzLNZjaGtw-QldPPFkc",
+          "short_id": "917e9eac"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "2",
+      "server": "45.138.99.224",
+      "server_port": 47096,
+      "uuid": "41773693-6340-485d-bf7c-f71147072c16",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rYdQczDVLRBfN4ruQXQN1sAwOWF18QbI88Vf_Ck5dRE",
+          "short_id": "192a41ac9df87560"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3",
+      "server": "sc.696960.xyz",
+      "server_port": 62442,
+      "uuid": "ecdcb9b4-fab0-4de4-a7f6-2c789b4f696f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "89L43FhMKv4WoCjVxj0s2V8yzS4segn3NuBVwL6ZNlE",
+          "short_id": "72d45419"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "4",
+      "server": "31.41.249.191",
+      "server_port": 13641,
+      "uuid": "b9db8da8-0fae-4212-c09b-6e1ff064947a",
+      "security": "aes-128-gcm",
+      "alter_id": 0,
+      "global_padding": true,
+      "authenticated_length": false,
+      "tls": {
+        "enabled": false
+      },
+      "packet_encoding": "",
+      "transport": {
+        "type": "http",
+        "path": "/"
       }
     }
   ],
