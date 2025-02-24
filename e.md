@@ -27,5 +27,5 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 • 互联网
 
 
-#### [加入 Telegram
+#### 加入 Telegram
 • [群组](https://)
