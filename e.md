@@ -17,7 +17,7 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • 在任意浏览器访问 http://127.0.0.1:9090/ui 即可 查看、管理和使用 你的 sing-box
 
-• [规则] 模式，默认，推荐，不建议切换到其他模式。使用的规则：私有 ip、中国大陆域名、中国大陆 ip 直连
+• [规则] 模式，默认，推荐，不建议切换到其它模式。使用的规则：私有 ip、中国大陆域名、中国大陆 ip 直连
 
 • [全局] 模式，使用的规则：私有 ip 直连，其它的一律 代理
 
