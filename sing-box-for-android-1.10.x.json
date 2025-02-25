@@ -1,16 +1,12 @@
 {
   "log": {
-    "disabled": false,
-    "level": "warn",
-    "output": "1g9v.log",
-    "timestamp": true
+    "disabled": true
   },
   "dns": {
     "servers": [
       {
         "tag": "proxy-dns",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "select"
+        "address": "https://1.1.1.1/dns-query"
       },
       {
         "tag": "direct-dns",
@@ -49,7 +45,6 @@
         "server": "direct-dns"
       }
     ],
-    "final": "proxy-dns",
     "strategy": "ipv4_only",
     "disable_cache": false,
     "disable_expire": false,
@@ -80,9 +75,8 @@
         "2",
         "3",
         "4",
-        "5"
+        "🇭🇰 香港 1"
       ],
-      "default": "",
       "interrupt_exist_connections": true
     },
     {
@@ -97,9 +91,9 @@
         "2",
         "3",
         "4",
-        "5"
+        "🇭🇰 香港 1"
       ],
-      "interval": "3m",
+      "interval": "2m",
       "tolerance": 100,
       "interrupt_exist_connections": true
     },
@@ -288,7 +282,7 @@
     },
     {
       "type": "vless",
-      "tag": "5",
+      "tag": "🇭🇰 香港 1",
       "server": "2400:c620:2c:79db::1",
       "server_port": 12252,
       "uuid": "13280d47-c03a-43dc-8313-91f84b830aa7",
@@ -378,7 +372,6 @@
         "update_interval": "3d"
       }
     ],
-    "final": "",
     "auto_detect_interface": true
   },
   "experimental": {
