@@ -69,6 +69,7 @@
         "♻️ 自动选择",
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
+        "🇺🇸 美国 3",
         "🇯🇵 日本 1",
         "🇹🇼 台湾 1",
         "1",
@@ -85,6 +86,7 @@
       "outbounds": [
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
+        "🇺🇸 美国 3",
         "🇯🇵 日本 1",
         "🇹🇼 台湾 1",
         "1",
@@ -141,6 +143,31 @@
         "path": "/",
         "headers": {
           "Host": "us.oldcloud.online"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 3",
+      "server": "ew.cloudflare.182682.xyz",
+      "server_port": 443,
+      "uuid": "d59139e1-a805-421c-a5d4-9b9cf5814338",
+      "tls": {
+        "enabled": true,
+        "server_name": "xz.4056860.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "xz.4056860.xyz"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
