@@ -35,6 +35,8 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [sing-box 配置](https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json)
 
+• [代理服务器（客户端）](https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json)
+
 • [sing-box 路由规则（域名）](https://github.com/SagerNet/sing-geosite)
 
 • [sing-box 路由规则（IP）](https://github.com/SagerNet/sing-geoip)
