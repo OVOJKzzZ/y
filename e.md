@@ -32,5 +32,7 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [sing-box 配置](https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json)
 
+• [WebUI](https://github.com/Zephyruso/zashboard)
+
 #### 加入 Telegram
 • [群组](https://t.me/+_Tpy-oNCvg8xYjI1)
