@@ -66,6 +66,7 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
+        "地址：https://github.com/OVOJKzzZ/y/blob/r/e.md",
         "♻️ 自动选择",
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
@@ -78,12 +79,14 @@
         "4",
         "🇭🇰 香港 1"
       ],
+      "default": "♻️ 自动选择",
       "interrupt_exist_connections": true
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
+        "地址：https://github.com/OVOJKzzZ/y/blob/r/e.md",
         "🇺🇸 美国 1",
         "🇺🇸 美国 2",
         "🇺🇸 美国 3",
@@ -110,6 +113,14 @@
     {
       "type": "block",
       "tag": "block-out"
+    },
+    {
+        "type": "shadowsocks",
+        "tag": "地址：https://github.com/OVOJKzzZ/y/blob/r/e.md",
+        "server": "107.172.101.101",
+        "server_port": 5678,
+        "method": "aes-128-gcm",
+        "password": "8Jsf8gS8"
     },
     {
       "type": "hysteria2",
