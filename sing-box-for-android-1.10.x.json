@@ -69,7 +69,7 @@
   "outbounds": [
     {
       "type": "selector",
-      "tag": "select",
+      "tag": "✈️ 代理选择",
       "outbounds": [
         "地址：https://github.com/OVOJKzzZ/y/blob/r/e.md",
         "♻️ 自动选择",
@@ -361,7 +361,7 @@
       },
       {
         "clash_mode": "全局",
-        "outbound": "select"
+        "outbound": "✈️ 代理选择"
       },
       {
         "clash_mode": "直连",
