@@ -77,6 +77,7 @@
         "🇺🇸 美国 2",
         "🇺🇸 美国 3",
         "🇯🇵 日本 1",
+        "🇯🇵 日本 2",
         "🇹🇼 台湾 1",
         "1",
         "2",
@@ -96,6 +97,7 @@
         "🇺🇸 美国 2",
         "🇺🇸 美国 3",
         "🇯🇵 日本 1",
+        "🇯🇵 日本 2",
         "🇹🇼 台湾 1",
         "1",
         "2",
@@ -132,6 +134,18 @@
       "tag": "🇺🇸 美国 1",
       "server": "dianfeng-us.legeth.xyz",
       "server_port": 49138,
+      "password": "ac176117-dced-424e-91ba-55b6fe7b7ef4",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 2",
+      "server": "dianfeng-jp.legeth.xyz",
+      "server_port": 47986,
       "password": "ac176117-dced-424e-91ba-55b6fe7b7ef4",
       "tls": {
         "enabled": true,
