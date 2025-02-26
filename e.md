@@ -25,6 +25,12 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 #### 代理服务器来源
 • 互联网
 
+#### 源代码
+• [sing-box](https://github.com/SagerNet/sing-box)
+
+• [sing-box for android](https://github.com/SagerNet/sing-box-for-android)
+
+• [sing-box 配置](https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android-1.10.x.json)
 
 #### 加入 Telegram
 • [群组](https://t.me/+_Tpy-oNCvg8xYjI1)
