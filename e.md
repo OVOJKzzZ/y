@@ -41,5 +41,11 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • [WebUI](https://github.com/Zephyruso/zashboard)
 
+#### 提问/交流
+
+• [GitHub Issues](https://github.com/OVOJKzzZ/y/issues)
+
+• [Telegram 群组](https://t.me/+_Tpy-oNCvg8xYjI1)
+
 #### 加入 Telegram
 • [群组](https://t.me/+_Tpy-oNCvg8xYjI1)
