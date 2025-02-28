@@ -15,6 +15,8 @@ https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/
 
 • 启动 sing-box 后，在任意浏览器访问 http://127.0.0.1:9090/ui 即可查看、管理和使用你的 sing-box
 
+• ［即将到来］局域网代理共享，端口 7766，类型 socks4、socks4a、socks5 和 http
+
 • [规则] 模式，默认，推荐，不建议切换到其它模式。使用的规则：私有 IP、中国大陆域名和中国大陆 IP 直连，其它的一律代理
 
 • [全局] 模式，使用的规则：私有 IP 直连，其它的一律代理
