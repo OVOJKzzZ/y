@@ -1,5 +1,3 @@
-### 本页面地址
-https://github.com/OVOJKzzZ/y/blob/r/e.md
 #### 提醒
 • 仅支持 sing-box
 
