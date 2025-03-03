@@ -66,8 +66,7 @@
         "192.168.0.0/16",
         "10.0.0.0/8",
         "172.16.0.0/12"
-      ],
-      "sniff": true
+      ]
     },
     {
       "type": "mixed",
@@ -122,14 +121,6 @@
     {
       "type": "direct",
       "tag": "direct-out"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "block",
-      "tag": "block-out"
     },
     {
         "type": "shadowsocks",
@@ -372,12 +363,16 @@
   "route": {
     "rules": [
       {
+        "inbound": "tun-in",
+        "action": "sniff"
+      },
+      {
         "protocol": "dns",
-        "outbound": "dns-out"
+        "action": "hijack-dns"
       },
       {
         "port": 53,
-        "outbound": "dns-out"
+        "action": "hijack-dns"
       },
       {
         "ip_is_private": true,
@@ -393,7 +388,7 @@
       },
       {
         "port": 853,
-        "outbound": "block-out"
+        "action": "reject"
       },
       {
         "rule_set": [
@@ -405,12 +400,12 @@
       },
       {
         "protocol": "quic",
-        "outbound": "block-out"
+        "action": "reject"
       },
       {
         "network": "udp",
         "port": 443,
-        "outbound": "block-out"
+        "action": "reject"
       }
     ],
     "rule_set": [
