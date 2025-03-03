@@ -2,7 +2,7 @@
 • 仅支持 sing-box
 > 介意勿用
 #### sing-box 下载
-[sing-box for android 1.10.7 官方版本](https://github.boki.moe/https://github.com/SagerNet/sing-box/releases/download/v1.10.7/SFA-1.10.7-universal.apk)
+[sing-box for android 官方最新版本](https://github.boki.moe/https://github.com/SagerNet/sing-box/releases/latest/download/SFA-1.11.4-universal.apk)
 #### sing-box 订阅地址
 ```txt
 https://github.boki.moe/https://raw.githubusercontent.com/OVOJKzzZ/y/refs/heads/r/sing-box-for-android.json
